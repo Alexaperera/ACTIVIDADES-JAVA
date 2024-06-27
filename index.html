@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios prácticos Javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200 p-6">
+    <h1 class="text-3xl font-bold text-center mb-6 text-gray-800">Ejercicios JavaScript</h1>
+
+    <div class="max-w-md mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-6 p-4">
+        <h2 class="text-xl font-semibold mb-4 text-gray-700">Invertir Cadena</h2>
+        <input type="text" id="actividad1" class="border p-2 w-full mb-4" placeholder="Introduce una palabra">
+        <button onclick="InvertirCadena()" class="bg-gray-700 text-white px-4 py-2 rounded">Invertir</button>
+    </div>
+
+    <div class="max-w-md mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-6 p-4">
+        <h2 class="text-xl font-semibold mb-4 text-gray-700">Verificar Número Primo</h2>
+        <input type="number" id="actividad2" class="border p-2 w-full mb-4" placeholder="Introduce un número">
+        <button onclick="numeroPrimo()" class="bg-gray-700 text-white px-4 py-2 rounded">Verificar</button>
+    </div>
+
+    <div class="max-w-md mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-6 p-4">
+        <h2 class="text-xl font-semibold mb-4 text-gray-700">Acomodar Arreglos</h2>
+        <input type="text" id="arreglo" class="border p-2 w-full mb-4" placeholder="Introduce un arreglo separado por comas">
+        <button onclick="acomodarArreglos()" class="bg-gray-700 text-white px-4 py-2 rounded">Acomodar</button>
+        <p id="resultado" class="mt-4 text-gray-600"></p>
+    </div>
+
+    <div class="max-w-md mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-6 p-4">
+        <h2 class="text-xl font-semibold mb-4 text-gray-700">Calcular Factorial</h2>
+        <input type="number" id="factorialN" class="border p-2 w-full mb-4" placeholder="Introduce un número">
+        <button onclick="factorial()" class="bg-gray-700 text-white px-4 py-2 rounded">Calcular</button>
+    </div>
+
+    <div class="max-w-md mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-6 p-4">
+        <h2 class="text-xl font-semibold mb-4 text-gray-700">Contador de Vocales</h2>
+        <input type="text" id="frase" class="border p-2 w-full mb-4" placeholder="Introduce una frase">
+        <button onclick="contadoVocales()" class="bg-gray-700 text-white px-4 py-2 rounded">Contar</button>
+    </div>
+
+    <div class="max-w-md mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-6 p-4">
+        <h2 class="text-xl font-semibold mb-4 text-gray-700">Sumar Arrays de Números</h2>
+        <input type="text" id="ArrayNumeros" class="border p-2 w-full mb-4" placeholder="Introduce un arreglo de números separados por comas">
+        <button onclick="sumarArraysDeNumeros()" class="bg-gray-700 text-white px-4 py-2 rounded">Sumar</button>
+    </div>
+
+    <div class="max-w-md mx-auto bg-gray-50 rounded-xl shadow-md overflow-hidden md:max-w-2xl mb-6 p-4">
+        <h2 class="text-xl font-semibold mb-4 text-gray-700">Valor Máximo del Array</h2>
+        <input type="text" id="ArrayMayor" class="border p-2 w-full mb-4" placeholder="Introduce un arreglo de números separados por comas">
+        <button onclick="valorMaxArray()" class="bg-gray-700 text-white px-4 py-2 rounded">Encontrar Máximo</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
